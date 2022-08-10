@@ -26,7 +26,7 @@
 </body>
 </html>
 <?php
-include('log.php')
+include('log.php');
  if (isset($_POST['Blogin'])) {
 	 $kon=mysqli_connect("localhost","root","","forensik");
 	 $NamaPengguna=filter_var($_POST['NamaPengguna'],FILTER_SANITIZE_STRING);
